@@ -136,12 +136,8 @@ class DijGraph {
                 visited = false;
             }
 
-            public void addEdge(Vertex to, int weight){
+            private void addEdge(Vertex to, int weight){
                 neighbours.put(to, weight);
-            }
-
-            public HashMap<Vertex, Integer> getNeighbours(){
-                return neighbours;
             }
 
             public String toString(){
