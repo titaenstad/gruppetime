@@ -127,7 +127,6 @@ class DijGraph {
         class Vertex implements Comparable<Vertex> {
             String id;
             HashMap<Vertex, Integer> neighbours;
-            boolean visited;
             int distance;
 
             Vertex(String id){

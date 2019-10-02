@@ -77,7 +77,7 @@ class BFGraph {
             v.distance = Integer.MAX_VALUE-50;
         }
         startVertex.distance = 0;
-        for (int i=0; i< vertices.size()-1; i++) {
+        for (int i=0; i < vertices.size()-1; i++) {
             for (Edge e: edges) {
                 if (e.destination.distance > (e.origin.distance + e.weight)) {
                     e.destination.distance = e.origin.distance + e.weight;
