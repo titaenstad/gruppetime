@@ -132,7 +132,6 @@ class DijGraph {
             Vertex(String id){
                 this.id = id;
                 neighbours = new HashMap<Vertex, Integer>();
-                visited = false;
             }
 
             private void addEdge(Vertex to, int weight){
